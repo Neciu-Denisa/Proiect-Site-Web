@@ -1,0 +1,433 @@
+.content {
+	padding: 20px;
+}
+
+body {
+	background-image: url("4fav4.jpg");
+	background-position: center 2.6%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	background-size: 100%;
+	min-width:940px;
+	min-height:884px;
+	margin: 0px;
+}
+
+.top {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: maroon;
+	width: 100%;
+	height: 30px;
+	animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {background-color: steelblue;}
+    to {background-color: maroon;}
+}
+
+.got-logo{
+	padding: 0px 2vw;
+	font-family: impact;
+	color: black;
+	font-size: 20px;
+	float: right;
+	height: 30px;
+}
+
+.log{
+	padding: 0 3vw;
+}
+
+nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+}
+
+nav ul li{
+	background-color: #222;
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width: auto;
+	min-width: 12%;	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav ul li a:hover{
+   background-color: #444;
+   transition: 0.45s;
+}
+
+nav ul ul {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+    padding: 0px;
+}
+
+nav ul ul li{
+	height: 35px;
+	line-height: 35px;
+	min-width: 100%
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+@media screen and (max-width: 580px) {
+    nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	
+	line-height: 60px;
+	text-align: center;
+
+	position: relative;
+	width:auto;
+	min-width: 14%;
+    }
+	nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: -16px;
+	margin-left: 5vh;
+	}
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+}
+
+@media screen and (max-width: 480px) {
+	nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width:auto;
+	min-width: 15%;
+    }
+
+	nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: 10vh;
+	margin-left: 2vh;
+	}
+
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+}
+
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('4fav4.jpg'); 
+    }
+}
+
+.toc {
+	width: 18%;
+	background-color: black;
+	color: orange;
+	padding: 20px 10px;
+	margin-left: 30vh;
+	margin-top: -3px;
+}
+
+.cast {
+	width: 55%;
+	background-color: black;
+	color: orange;
+	padding: 20px auto 10px;
+	margin-left: 30vh;
+	margin-top: -3px;
+	-moz-column-count: 2; 
+	-webkit-column-count: 2; 
+	column-count: 2;
+	color: orange;
+	list-style: disc;
+}
+
+
+.tocnumber{
+	padding-left: 20px;
+	font-family: comic sans;
+	font-size: 18;
+	color: red;
+}
+
+.toctext{
+	padding-left: 1px;
+	font-family: comic sans;
+	font-size: 20;
+	color: orange;
+}
+
+.soundtrack {
+	background-color: black;
+	color: orange;
+	padding: 20px 10px;
+	margin-left: 30vh;
+	margin-top: -3px;
+}
+
+h6{
+	color: red;
+	margin-top: 85vh;
+	margin-left: 43%;
+	margin-bottom: 2px;
+	font-size: 2em;
+}
+
+h1{
+	color: red;
+	margin-top: 2vh;
+	margin-left: 4%;
+	text-align: center;
+}
+
+h2 {
+	max-width: 400px;
+	margin: 0px auto 10px;
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.him img{
+	height: 63px;
+	width: 50px;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	float: left;
+	padding: 0 10px;
+}
+
+.him img:hover{
+	width: 200px;
+	height: 250px;
+}
+
+h3 {
+	max-width: 900px;
+	margin: 20px auto 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	color: red;
+	font-size: 20px;
+	text-indent: 7em;
+}
+
+h4{
+	color: yellow;
+	font-size: 20px;
+	text-indent: 2em;
+	padding-left: 20px;
+	padding-right:20px;
+	max-width: 900px;
+	margin: 20px auto 10px;
+}
+
+p {
+	font-size: 1.1em;  
+	max-width: 1000px;
+	margin: 0 auto 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #F6530D;
+	text-indent: 2em;
+}
+
+.vid {
+	margin-left: 40vh;
+	margin-top: 3vh;
+}
+
+.pres {
+	display: flex;
+	margin-top: 60px;
+}
+
+.pres iframe {
+	display: flex;
+	border:3px solid black; 
+	margin-left: 15vw;
+	min-width: 70vw;
+	min-height: 40vw;
+}
+
+video {
+	padding: 1px 100px 10px;
+	margin-top: -100px;
+
+} 
+
+footer {
+	width: 100%;
+	background-color: #222;
+	padding: 50px 0px;
+	font-size: 0.9em;
+	font-family: georgia;
+}
+
+footer p {
+	margin-top: -15px;
+    margin-left: 15px;
+	color: #B30A04;
+
+}
+
+footer nav {
+	float: right;
+}
+
+footer nav ul {
+	margin-top: -85px;
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	list-style: none;
+    margin-left:90vw;
+	}
+
+footer nav ul li a{
+	font-family:Lato;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #111;
+	}
+
+footer ul{
+	float:right;
+	list-style-type: none;
+}
+
+			.quiz{
+	width: auto;
+	background-color: black;
+	color: orange;
+	padding: 20px 10px;
+	margin-left: 30vh;
+	margin-top: -3px;
+			}
+			
+			code,small,strike,sub,sup,b,u,i{
+			border:0;
+			font-size:100%;
+			font:inherit;
+			vertical-align:baseline;
+			margin:0;
+			padding:4vh 28vw;
+		} 
+		strong{
+			border:0;
+			font-size:100%;
+			font:inherit;
+			vertical-align:baseline;
+			margin:0;
+			text-align: center;
+		}
+		
+        article,aside,details,figcaption,figure,hgroup,menu,section{
+			display:block;
+		}  
+		
+        ol,ul{
+			list-style:none;
+		}
+		
+        strong{
+			font-weight:700;
+		}
+		
+        #frame{
+			max-width:620px;
+			width:auto;
+			border:1px solid #ccc;
+			background-color:black;
+			padding:10px;
+			margin:3px;
+		}
+			
+			h1.frame{
+				margin-top: 2vh;
+			}
+		
+		  p.pager{
+			margin:5px -10vw 5px; 
+			font:bold 1em/1em "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color:#999;
+			text-align: center;
+		}
+		
+        #choice-block{
+			display:block;
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+		
+        #submitbutton{
+			background:#5a6b8c;
+		}
+		
+        #submitbutton:hover{
+			background:#7b8da6;
+		}
+        #explanation{
+			margin:0 auto;
+			padding:20px;
+			width:75%;
+			text-align: center;
+		}
+        .choice-box{
+			display:block;
+			text-align:center;
+			margin:8px auto;
+			padding:10px 0;
+			border:1px solid #666;
+			cursor:pointer;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+		}

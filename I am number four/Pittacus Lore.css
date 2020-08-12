@@ -1,0 +1,291 @@
+.content {
+	padding: 20px;
+}
+
+body {
+	background-image: url("masthead.jpg");
+	background-position: center 3.7%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	min-width:1400px;
+	min-height:350px;
+	margin: 0px;
+}
+
+.top {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: maroon;
+	width: 100%;
+	height: 30px;
+	animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {background-color: steelblue;}
+    to {background-color: maroon;}
+}
+
+.got-logo{
+	padding: 0px 2vw;
+	font-family: impact;
+	color: black;
+	font-size: 20px;
+	float: right;
+	height: 30px;
+}
+
+.log{
+	padding: 0 3vw;
+}
+
+nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+}
+
+nav ul li{
+	background-color: #222;
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width: auto;
+	min-width: 12%;	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav ul li a:hover{
+   background-color: #444;
+   transition: 0.45s;
+}
+
+nav ul ul {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+    padding: 0px;
+}
+
+nav ul ul li{
+	height: 35px;
+	line-height: 35px;
+	min-width: 100%
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+@media screen and (max-width: 580px) {
+    nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	
+	line-height: 60px;
+	text-align: center;
+
+	position: relative;
+	width:auto;
+	min-width: 14%;
+    }
+	nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: -16px;
+	margin-left: 5vh;
+	}
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+}
+
+@media screen and (max-width: 480px) {
+	nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width:auto;
+	min-width: 15%;
+    }
+
+	nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: 10vh;
+	margin-left: 2vh;
+	}
+
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+}
+
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('masthead.jpg'); 
+    }
+}
+
+h2 {
+	max-width: 400px;
+	margin: 0px auto 10px;
+	text-align: center;
+	color: white;
+	padding-bottom: 10px;
+}
+
+.him img{
+	height: 63px;
+	width: 50px;
+	-webkit-transition: all 2s ease;
+	-moz-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	transition: all 2s ease;
+	float: left;
+	padding: 0 10px;
+}
+
+.him img:hover{
+	width: 200px;
+	height: 250px;
+}
+
+h3 {
+	max-width: 900px;
+	margin: 20px auto 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	color: red;
+	font-size: 20px;
+	text-indent: 7em;
+}
+
+p {
+	font-size: 1.1em;  
+	max-width: 1000px;
+	margin: 0 auto 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #F6530D;
+	text-indent: 2em;
+}
+
+
+.letter{
+	padding: 0px 33vh;
+}
+
+.signature{
+	padding-left: 400px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-left:40vw;
+}
+
+.pl{
+	margin-left: 45vw;
+	margin-top: 5vw;
+	font-family: comic-sans;
+	font-size: 40px;
+	color: white;
+	float: left;
+}
+
+.pres {
+	display: flex;
+	margin-top: 60px;
+}
+
+.pres iframe {
+	display: flex;
+	border:3px solid black; 
+	margin-left: 15vw;
+	min-width: 70vw;
+	min-height: 40vw;
+}
+
+.buton{
+	padding-left: 20vw;
+}
+
+video {
+	padding: 150px 260px 30px;
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+} 
+
+footer {
+	width: 100%;
+	background-color: #222;
+	padding: 50px 0px;
+	font-size: 14px;
+	font-family: georgia;
+}
+
+footer p {
+	margin-top: -15px;
+    margin-left: 15px;
+	color: #B30A04;
+
+}
+
+footer nav {
+	float: right;
+}
+
+footer nav ul {
+	margin-top: -60px;
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	list-style: none;
+    margin-left:20px;
+	}
+
+footer nav ul li a{
+	font-family:Lato;
+	font-weight: 400;
+	font-size: 10px;
+	color: #111;
+	}
+
+footer ul{
+	float:right;
+	list-style-type: none;
+}

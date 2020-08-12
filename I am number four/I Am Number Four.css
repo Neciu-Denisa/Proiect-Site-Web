@@ -1,0 +1,326 @@
+.content {
+	padding: 20px;
+}
+
+body {
+	background-image: url("I am number four.jpg");
+	background-position: center 5.6%;
+	background-repeat: no-repeat;
+	background-color: #000;
+	min-width:940px;
+	min-height:884px;
+	margin: 0px;
+}
+
+.top {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background-color: maroon;
+	width: 100%;
+	height: 30px;
+	animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    from {background-color: steelblue;}
+    to {background-color: maroon;}
+}
+
+.got-logo{
+	padding: 0px 2vw;
+	font-family: impact;
+	color: black;
+	font-size: 20px;
+	float: right;
+	height: 30px;
+}
+
+.log{
+	padding: 0 3vw;
+}
+
+nav {
+	width: 100%;
+	height: 140px;
+	background-color: #222;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul{
+	list-style: none;	
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 40px;
+	z-index: 999;
+}
+
+nav ul li{
+	background-color: #222;
+	width: 136px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width: auto;
+	min-width: 12%;	
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+nav ul li a:hover{
+   background-color: #444;
+   transition: 0.45s;
+}
+
+nav ul ul {
+	position: absolute;
+	display: none;
+	margin-left: 0px;
+    padding: 0px;
+}
+
+nav ul ul li{
+	height: 35px;
+	line-height: 35px;
+	min-width: 100%
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+@media screen and (max-width: 580px) {
+    nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	
+	line-height: 60px;
+	text-align: center;
+	
+	position: relative;
+	width:auto;
+	min-width: 14%;
+    }
+	nav {
+	width: 100%;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: -16px;
+	margin-left: 5vh;
+	}
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	nav ul li {
+	background-color: #222;
+	width: 136px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	float: left;
+	position: relative;
+	width:auto;
+	min-width: 15%;
+    }
+
+	nav {
+	width: 100%;
+	display: none;
+	background-color: #222;
+	color: #fff;
+	padding: 0 0;
+	margin-top: 10vh;
+	margin-left: 2vh;
+	}
+
+	nav ul ul li{
+	height: 25px;
+	line-height: 25px;
+	min-width: 150%
+	}
+}
+
+@media only screen and (min-device-width: 400px) {
+    body { 
+        background-image: url('I am number four.jpg'); 
+    }
+}
+
+@media screen and (max-width: 400px) {
+	body { 
+        background-image: url('4fav5.jpg');
+		background-size: cover;
+    }
+}
+
+
+.title-logo{
+	margin: 0 0 0 0;
+	height: 30px;
+	padding: 2vh 43vw;
+}
+
+h2 {
+	max-width: 400px;
+	margin: 0px auto 10px;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	max-width: 900px;
+	margin: 20px auto 10px;
+	padding-left: 20px;
+	padding-right:20px;
+	color: red;
+}
+
+p {
+	font-size: 1.1em;  
+	max-width: 1000px;
+	margin: 0 auto 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	color: #F6530D;
+	text-indent: 2em;
+}
+
+.comm {
+	margin: 40px 10vw;
+	color: #4A9A03;
+}
+
+.comm input {
+	padding: 0 4vw;
+	background-color: #4CAF50;
+	border: none;
+	display: inline-block;
+	border-radius: 4px;
+}
+
+#comment{
+	background-color: #4CAF50;
+}
+
+label{ 
+display: inline-block; 
+width: 60px; 
+text-align: left; 
+}
+
+.search {
+	float:right;
+	margin-right: 10vw;
+	margin-top:10px;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	color: white;
+}
+
+.search p {
+	font-size: 1em;
+	color: white;
+}
+
+.search input[type=text] {
+	padding: 7px 25px;
+	float : right;
+    border: 3px solid #444;	
+	margin-top: -15px;
+	margin-bottom: 20px;
+    width: 100px;
+   	-webkit-transition: width .35s ease-in-out;
+  	transition: width .35s ease-in-out;
+}
+
+.pres {
+	display: flex;
+	margin-top: 60px;
+}
+
+.pres iframe {
+	display: flex;
+	border:3px solid black; 
+	margin-left: 15vw;
+	min-width: 70vw;
+	min-height: 40vw;
+}
+.video{
+	position:relative;
+	padding-bottom:56.25%;
+}
+.video iframe{
+	opacity: 0.7;
+	filter: alpha (opacity=70);
+	width:100%;
+	height:100%;
+	position: absolute;
+} 
+
+.containervideo {
+	max-width: 640px;
+	padding: 12vh 20vw;
+}
+
+.buton{
+	padding-left: 20vw;
+}
+
+footer {
+	width: 100%;
+	background-color: #222;
+	padding: 50px 0px;
+	font-size: 0.9em;
+	font-family: georgia;
+}
+
+footer p {
+	margin-top: -15px;
+    margin-left: 15px;
+	color: #B30A04;
+
+}
+
+footer nav {
+	float: right;
+}
+
+footer nav ul {
+	margin-top: -85px;
+	
+}
+
+footer nav ul li {
+	display: inline-block;
+	list-style: none;
+    margin-left:90vw;
+	}
+
+footer nav ul li a{
+	font-family:Lato;
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #111;
+	}
+
+footer ul{
+	float:right;
+	list-style-type: none;
+}
